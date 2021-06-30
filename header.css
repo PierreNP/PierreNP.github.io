@@ -1,0 +1,70 @@
+#underbody
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial;
+    height: 685px;
+}
+header
+{
+display: flex;
+flex-direction: row-reverse;
+justify-content: space-between;
+height: 60px;
+width: 15%;
+align-self: flex-end;
+font-size: small;
+}
+#Middle
+{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 250px;
+width: 100%;
+}
+#boutons
+{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+width: 350px;
+margin-top: 20px;
+}
+#France
+{
+    
+    background-color: rgba(0,0,0,0.10);
+    height: 45px;
+    width: 100%;
+    color: rgba(0,0,0,0.50);
+}
+.espace
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: medium;
+}
+.button
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 15px;
+}
+footer
+{
+    display: flex;
+    background-color: rgba(0,0,0,0.10);
+    justify-content: space-between;
+    flex-direction: row;
+    height: 50px;
+    border-top: 1px solid rgba(0,0,0,0.30);
+    width: 100%;
+}
